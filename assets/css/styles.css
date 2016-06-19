@@ -92,6 +92,7 @@ p {
 }
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
+  min-width: 195px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
@@ -138,7 +139,7 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .languages-list li {
-  margin-bottom: 10px;
+  margin-bottom: 10px;  
 }
 .sidebar-wrapper .languages-list li:last-child {
   margin-bottom: 0;
@@ -293,7 +294,3 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
-
-.email{
-  width: 195px;
-}

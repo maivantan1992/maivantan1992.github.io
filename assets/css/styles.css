@@ -84,6 +84,7 @@ p {
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
+  width: 180px;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -101,7 +102,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 20px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -296,3 +297,8 @@ p {
 /* Ex-Large devices (large desktops, 1200px and up) */
 
 .hide-print { display: none; }
+
+
+@page {
+  size: A4;
+}
